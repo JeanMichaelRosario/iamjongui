@@ -12,3 +12,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+i {
+  font-size: 3.5em;
+}
+
+/* ICONS */
+
+/* DevIcon color */
+.icon-skills{
+  font-size: 1.5em;
+}
+
+.devicon-docker-plain-wordmark {
+  color:#2496ed;
+}
+
+.devicon-rails-plain-wordmark {
+  color:#c00;
+}
+
+.devicon-react-original-wordmark {
+  color:#61dafb;
+}
+
+.devicon-nodejs-plain-wordmark{
+
+}
+
+.devicon-php-plain{
+  color:#6574ae;
+}

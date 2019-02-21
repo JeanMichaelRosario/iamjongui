@@ -4,7 +4,6 @@ import '../Styles/App.css';
 import Header from "../Components/Header";
 import About from './About';
 import Portfolio from './Portfolio';
-import Contact from "./Contact";
 import 'tachyons';
 
 class App extends Component {
@@ -18,9 +17,6 @@ class App extends Component {
           </section>
           <section id="Portfolio">
             <Portfolio />
-          </section>
-          <section id="Contact">
-            <Contact />
           </section>
         </div>
       </div>

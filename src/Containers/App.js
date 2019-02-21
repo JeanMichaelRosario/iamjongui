@@ -13,9 +13,15 @@ class App extends Component {
       <div className="mh3">
         <Header />
         <div className="tc">
-        <About/>
-        <Portfolio />
-        <Contact />
+          <section id="About">
+            <About/>
+          </section>
+          <section id="Portfolio">
+            <Portfolio />
+          </section>
+          <section id="Contact">
+            <Contact />
+          </section>
         </div>
       </div>
     );

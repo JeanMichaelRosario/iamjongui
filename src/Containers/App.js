@@ -22,9 +22,7 @@ class App extends Component {
             </section>
           </div>
         </div>
-        <section id="Contact">
-          <Footer />
-        </section>
+        <Footer />
       </div>
     );
   }

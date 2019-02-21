@@ -2,25 +2,22 @@ import React from 'react';
 import SkillCard from './SkillCard';
 
 const ListOfSkills = ({arrayOfSkills}) => {
-    const firstSet = [
-        <SkillCard key={0} icon={arrayOfSkills[0]} />,
-        <SkillCard key={1} icon={arrayOfSkills[1]} />
-    ];
-
-    const secondSet = [
-        <SkillCard key={2} icon={arrayOfSkills[2]} />,
-        <SkillCard key={3} icon={arrayOfSkills[3]} />
-    ];
+    const set = arrayOfSkills.map((skill, i) => {
+        return <SkillCard key={i} 
+        icon={skill.icon} 
+        title={skill.title} 
+        text={skill.text} />
+    });
 
     const style = "flex flex-row w-50-l w-100 mb2";
 
     return(
         <div className="flex flex-wrap ma2">
             <div className={style}>
-                {firstSet}
+                {set.slice(0,2)}
             </div>
             <div className={style}>
-                {secondSet}
+                {set.slice(2)}
             </div>
         </div>
     );

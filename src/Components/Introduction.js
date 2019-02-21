@@ -1,9 +1,10 @@
 import React from 'react';
+import Me from '../me.png';
 
 const Introduction = () => {
     return(
         <div className="w-100">
-            <img alt="me" src="http://tachyons.io/img/logo.jpg" className="dib w2 h2 br-100"/>
+            <img alt="me" src={Me} className="dib w4 h4"/>
             <h3>Who am I ?</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

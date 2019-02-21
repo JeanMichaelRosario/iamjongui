@@ -10,7 +10,7 @@ const AboutMe = () => {
     ]
 
     return(
-        <div className="fl w-100">
+        <div className="fl w-100 mb5">
             <ListOfSkills arrayOfSkills={skills} />
         </div>
     );

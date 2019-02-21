@@ -9,7 +9,7 @@ class Header extends Component {
                         <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#Home" title="Home">Home</a>
                         <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#About" title="About">About</a>
                         <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#Portfolio" title="Portfolio">Portfolio</a>
-                        <a className="link dim dark-gray f6 f5-l dib" href="#Contact" title="Contact">Contact</a>
+                        {/* <a className="link dim dark-gray f6 f5-l dib" href="#Contact" title="Contact">Contact</a> */}
                     </div>
                 </nav>
             </header>

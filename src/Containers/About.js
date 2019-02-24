@@ -5,22 +5,18 @@ import AboutMe from "../Components/AboutMe";
 
 const About = () => {
     return(
-        <div>
+        <section id="About">
             <h2>About</h2>
-            <div>
-                <AboutMe />
-            </div>
-            <div className="fl w-100">
-                <div className="flex flex-wrap">
-                    <div className="w-50-l w-100 mb2 ph2">
-                        <Introduction />
-                    </div>
-                    <div className="w-50-l w-100 mb2 ph2">
-                        <TechSkills />
-                    </div>
+            <AboutMe />
+            <div className="w-100 flex flex-wrap">
+                <div className="w-50-l w-100 mb2 ph2">
+                    <Introduction />
+                </div>
+                <div className="w-50-l w-100 mb2 ph2">
+                    <TechSkills />
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

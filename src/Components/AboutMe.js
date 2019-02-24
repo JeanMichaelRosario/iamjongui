@@ -26,7 +26,7 @@ const AboutMe = () => {
     ]
 
     return(
-        <div className="fl w-100 mb5">
+        <div className="w-100 mb5">
             <ListOfSkills arrayOfSkills={skills} />
         </div>
     );

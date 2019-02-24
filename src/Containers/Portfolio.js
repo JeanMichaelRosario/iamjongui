@@ -26,12 +26,12 @@ const Portfolio = () => {
     });
     
     return(
-        <div>
+        <section id="Portfolio">
             <h2>Projects</h2>
             <div className="flex justify-center mb2">
                 {listOfProjects}
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from '../logo.svg';
 import '../Styles/App.css';
 import Header from "../Components/Header";
 import About from './About';
@@ -14,12 +13,8 @@ class App extends Component {
         <div className="mh3">
           <Header />
           <div className="tc">
-            <section id="About">
-              <About/>
-            </section>
-            <section id="Portfolio">
-              <Portfolio />
-            </section>
+            <About/>
+            <Portfolio />
           </div>
         </div>
         <Footer />

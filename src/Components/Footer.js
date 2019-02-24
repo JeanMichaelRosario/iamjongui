@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="tc-l bg-center cover mt3 pt3">
             <div className="w-100 ph3 pv3">
                 <a className="link black-60 bg-transparent hover-black inline-flex items-center ma2 tc br2 pa2"
-                    href="https://github.com/mrmrs" 
+                    href="https://github.com/JeanMichaelRosario" 
                     title="GitHub">
                     <svg className="dib h2 w2" 
                         fill="currentColor"
@@ -19,7 +19,7 @@ const Footer = () => {
                     <span className="f6 ml3 pr2">GitHub</span>
                 </a>
                 <a className="link black-60 bg-transparent hover-black inline-flex items-center ma2 tc br2 pa2"
-                    href="https://instagram.com/mrmrs_" 
+                    href="https://instagram.com/iamjongui" 
                     title="Instagram">
                     <svg className="dib h2 w2" 
                         fill="currentColor"
@@ -33,7 +33,7 @@ const Footer = () => {
                     <span className="f6 ml3 pr2">Instagram</span>
                 </a>
                 <a className="link black-60 bg-transparent hover-black inline-flex items-center ma2 tc br2 pa2"
-                    href="https://linkedin.com" 
+                    href="https://linkedin.com/in/iamjongui" 
                     title="LinkedIn">
                     <svg className="dib h2 w2" 
                         fill="currentColor"

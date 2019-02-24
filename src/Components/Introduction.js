@@ -1,10 +1,9 @@
 import React from 'react';
-import Me from '../Images/me.png';
 
 const Introduction = () => {
     return(
         <div className="w-100">
-            <img alt="me" src={Me} className="dib w4 h4"/>
+            <img alt="me" src='../Images/me.png' className="dib w4 h4"/>
             <h3>Who am I ?</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

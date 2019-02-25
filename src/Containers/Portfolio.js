@@ -28,7 +28,7 @@ const Portfolio = () => {
     return(
         <section id="portfolio">
             <h2>Projects</h2>
-            <div className="flex justify-center mb2">
+            <div className="flex justify-center flex-wrap">
                 {listOfProjects}
             </div>
         </section>

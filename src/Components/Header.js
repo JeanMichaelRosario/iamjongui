@@ -8,7 +8,7 @@ class Header extends Component {
                     <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#home" title="Home">Home</a>
                     <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#about" title="About">About</a>
                     <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#portfolio" title="Portfolio">Portfolio</a>
-                    {/* <a className="link dim dark-gray f6 f5-l dib" href="#Contact" title="Contact">Contact</a> */}
+                    <a className="link dim dark-gray f6 f5-l dib red" target="_blank" href={process.env.PUBLIC_URL + "Jean Michael Rosario CV.pdf"} title="Resume"><strong>Resume</strong></a>
                 </div>
             </nav>
         );

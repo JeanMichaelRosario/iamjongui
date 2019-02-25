@@ -3,7 +3,7 @@ import React from 'react';
 const Introduction = () => {
     return(
         <div className="w-100">
-            <img alt="me" src='../Images/me.png' className="dib w4 h4"/>
+            <img alt="me" src='/Images/me.png' className="dib w4 h4"/>
             <h3>Who am I ?</h3>
             <div className="tr">
                 <p>

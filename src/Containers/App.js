@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../Styles/App.css';
 import Header from "../Components/Header";
 import About from './About';
 import Portfolio from './Portfolio';
@@ -10,12 +9,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="mh3">
-          <Header />
-          <div className="tc mb3">
-            <About/>
-            <Portfolio />
-          </div>
+        <Header />
+        <div className="tc mh3 margin-top-70">
+          <About/>
+          <Portfolio />
         </div>
         <Footer />
       </div>

@@ -26,7 +26,7 @@ const Portfolio = () => {
     });
     
     return(
-        <section id="Portfolio">
+        <section id="portfolio">
             <h2>Projects</h2>
             <div className="flex justify-center mb2">
                 {listOfProjects}

@@ -5,7 +5,7 @@ import AboutMe from "../Components/AboutMe";
 
 const About = () => {
     return(
-        <section id="About">
+        <section id="about">
             <h2>About</h2>
             <AboutMe />
             <div className="w-100 flex flex-wrap">

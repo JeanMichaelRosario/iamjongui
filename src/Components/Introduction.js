@@ -9,7 +9,7 @@ const Introduction = () => {
                 <p>
                     I am a Software Developer, I had work for companies like:&nbsp;
                     <a href="#portfolio">nzxt</a>,&nbsp;<a href="#portfolio">financefactory</a> and&nbsp;
-                    <a href="#portfolio">mctekk</a>. You can see some of the tools I use on the left.
+                    <a href="#portfolio">mctekk</a>. You can see some of the tools I use on the right (or bottom if you are using a mobile).
                     As a self-learned developer, I keep learning and digging into the internet to 
                     use new stuff in projects I am working in. I love to work with other people because
                     that helps me to grow faster and I like to discuss different ideas with the team</p> 

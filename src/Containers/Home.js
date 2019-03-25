@@ -14,7 +14,7 @@ class Home extends Component {
             "Are you ready to create one?",
             "Text me",
             "Because...",
-            "I am how you are looking for ;)"
+            "I am whom you are looking for ;)"
         ];
     }
 

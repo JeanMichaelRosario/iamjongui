@@ -8,10 +8,11 @@ const TechSkills = () => {
             <h3>Skills</h3>
             <div className="flex flex-wrap icon-skills">
                 <i className={ classAtributes + "devicon-docker-plain-wordmark"}></i>
-                <i className={ classAtributes + "devicon-rails-plain-wordmark"}></i>
+                <i className={ classAtributes + "devicon-laravel-plain colored"}></i>
                 <i className={ classAtributes + "devicon-react-original-wordmark"}></i>
                 <i className={ classAtributes + "devicon-nodejs-plain-wordmark"}></i>
                 <i className={ classAtributes + "devicon-php-plain"}></i>
+                <i className={ classAtributes + "devicon-wordpress-plain-wordmark colored"}></i>
             </div>
         </div>
     );

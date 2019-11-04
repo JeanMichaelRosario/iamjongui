@@ -2558,6 +2558,11 @@ input, select, textarea {
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
+				.wordpress {
+					color: #b74e91;
+					font-size: 30px;
+					line-height: 1.49;
+				}
 
 /* Image */
 
